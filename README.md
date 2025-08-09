@@ -47,6 +47,30 @@ Each loop, your past self returns as an _echo_, replaying your exact previous ac
 
 -   stb_image – texture loading
 
+## Build and Run
+
+The project uses **Premake** for build configuration, with batch scripts to simplify setup on Windows.
+
+**Building the Project**
+
+Run the Visual Studio project generator script:
+
+`Build\vs2022.bat` 
+
+This script will generate all project files and a solution (`.sln`) in the root directory. You can change the script filename to generate for a different Visual Studio version (e.g., `vs2019.bat` for Visual Studio 2019).
+
+**Cleaning the Project**
+
+To clean the generated files, run:
+
+`Build\BuildSystemCleanup.bat` 
+
+This removes generated solution and project files to reset the build environment.
+
+**Running the Game**
+
+The build system configures the Game project as the startup project. The generated solution is ready to compile and run with Debug, Release, and Shipping configurations.
+
 ## Development Notes
 
 This repository is a self-contained public snapshot of the GMTK 2025 version.
