@@ -1,0 +1,11 @@
+/.bin
+/Distro/Bin
+
+/.vs
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+*.log
+*.pdb

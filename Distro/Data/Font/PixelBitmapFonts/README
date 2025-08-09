@@ -1,0 +1,11 @@
+Pixel Bitmap Fonts (PNG + XML)
+
+I was unable to find any bitmap fonts I could use with PhaserJS, so I compiled a few basic ones.  
+
+There are multiple fonts, each with a PNG and corresponding XML file.
+
+The letter-spacing has been adjusted for variable widths.
+
+These are CC0 / Public Domain. Enjoy!
+
+https://frostyfreeze.itch.io/pixel-bitmap-fonts-png-xml
